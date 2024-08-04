@@ -1,0 +1,3 @@
+  <div class='col-xs-6 col-sm-6 col-md-3 alert bootstrap-growl-bottom-right alert-success' id='message_box' style='position: fixed; margin: 0px; z-index: 1080; bottom: -60px; right: 20px;'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>×</button><i class='icon fa fa-check'></i>{{ !empty(Session::get('message')) ? Session::get('message') : '' }}</div>
+
+  <div class='col-xs-6 col-sm-6 col-md-3 alert bootstrap-growl-bottom-right alert-warning' id='exception_box' style='position: fixed; margin: 0px; z-index: 1080; bottom: -60px; right: 20px;'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>×</button><i class='icon fa fa-warning'></i>{{ !empty(Session::get('exception')) ? Session::get('exception') : '' }}</div>

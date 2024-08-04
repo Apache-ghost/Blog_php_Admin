@@ -1,0 +1,245 @@
+@media screen and (max-width: 980px){
+    header{display:none;}	
+    .responsive-header{display:block;}
+    .container, .container-fluid{
+        padding: 0 15px;	
+    }	
+    .nav.nav-tabs.branches a{
+        padding: 10px 8px;	
+    }
+    .post-detail > h2{
+        font-size: 16px;	
+    }
+    .news-title{
+        padding: 10px 15px;	
+    }
+    .post-data{
+        margin-bottom: 30px;	
+    }
+    .post-data > h2{
+        font-size: 15px;	
+    }
+    .pp-post-meta {
+        background: #000 none repeat scroll 0 0;
+        bottom: 0;
+        float: left;
+        left: 0;
+        max-width: 100%;
+        padding: 15px;
+        position: initial;
+        text-align: center;
+        transform: translate(0px);
+        width: 100%;
+    }
+    .pp-post-meta > h3{
+        font-size: 16px;
+        padding-bottom: 10px;	
+    }	
+    .pp-post-meta > span{
+        float:left;
+        width: 100%;	
+    }
+    .posts-with-carousel{
+        padding: 0 10px;	
+    }
+    .list-small-meta > h2{
+        font-size: 17px;	
+    }
+    .post-meta2 > li{
+        margin-right: 6px;	
+    }
+    .list-post-detail h2{
+        font-size: 18px;	
+    }
+    .list-post-detail > p{
+        padding-bottom: 12px;	
+    }
+    .footer-widget .widget{
+        margin-bottom: 30px;	
+    }
+    .responsive-header ul.socials{
+        padding-right: 20px;	
+    }
+    .res-logo-area{
+        padding: 10px 0;
+    }
+    .res-logo-area img {
+        height: 35px;
+    }
+    .footer-popu-posts li a{
+        display: block;
+    }
+    .res-social {
+        float: left;
+        width: 100%;
+        color: #fff;
+        text-align: left;
+        margin: 10px 0;
+    }
+    .res-social .social-btns{
+        padding: 0 !important;
+    }
+    .res-social .social-btns li{
+        display: inline-block;
+        list-style: none;
+        color: #fff;
+        width: auto;
+        margin-right: 5px;
+    }
+    .res-social .social-btns li a{
+        display: inline-block;
+        color: #fff;
+        margin-right: 5px;
+        border: 0;
+    }
+    .res-social .social-btns li a:before{
+        background: transparent;
+    }
+}
+
+@media screen and (max-width: 500px){
+    header{display:none;}
+    .responsive-header{display:block;}	
+    .container, .container-fluid{
+        padding: 0 15px;	
+    }
+    .featured-meta{
+        bottom: -30px;
+        padding: 0 10px;	
+    }
+    .post-info > li{ margin-right: 8px;}
+    .featured-meta.small{
+        padding: 0 10px;	
+    }
+
+    .list-small-post > a {
+        display: inline-block;
+    }
+    .list-small-meta {
+        padding-left: 0;
+    }
+    .socials {
+        float: left;
+    }
+
+    .tab-base-post {
+        margin-top: 30px;
+    }
+    .post-list-style > a {
+        display: inline-block;
+        max-width: 100%;
+    }
+    .list-post-detail h2 {
+        font-size: 20px;
+    }
+    .social-meta {
+        display: block;
+        padding: 10px;
+        line-height: 50px;
+        height: 50px;
+        float: left;
+        width: 100%;
+        margin-bottom: 3px;
+    }
+    .social-widget li .social-meta > span {
+        padding-left: 20px;
+    }
+
+    aside {
+        margin-top: 30px;
+    }
+
+    .footer-widget .widget {
+        margin-bottom: 30px;
+    }
+    .widget .nav.nav-tabs.branches.wgt-style a{
+        padding: 10px 11px !important;	
+    }
+    .pp-trend-meta > h5{
+        font-size: 16px;	
+    }
+    .remove-ext{
+        float:none;
+        width: initial;
+        margin-bottom: 0;	
+    }
+    .pagination > li a{
+        padding: 5px 12px;	
+    }
+    .pagination > li.first a, .pagination > li.last a{
+        padding: 5px 10px;	
+    }
+    .search-result form button{
+        width: 90px;	
+    }
+    .subscribe-us{
+        padding-right: 10px;
+        padding-left: 10px;	
+    }
+    .views-comments{
+        width: 100%;
+        padding-left: 0;	
+    }
+    .views-comments li {
+        display: inline-block;
+        margin-right: 5px;
+        margin-top: 10px;
+        padding-left: 0;
+    }
+    blockquote{
+        max-width: 100%;	
+    }
+    .single-related {
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    .contact-form form input {
+        margin-top: 20px;
+    }
+    .trend-meta {
+        padding-top: 0;
+    }
+    .video-iframe,
+    .video-side-meta{
+        width: 100%;	
+    }
+    .single-title{
+        font-size: 24px;	
+    }
+    .comment-detail {
+        float: left;
+        margin-top: 20px;
+        overflow: auto;
+        padding-left: 0;
+        width: 100%;
+    }
+    aside{
+        margin-top: 30px;	
+    }
+    #nav-icons-head {
+        vertical-align: middle;
+    }
+    .responsive-header ul.social-btns {
+        padding: 13px 20px;
+    }	
+    .res-search {
+        display: block;
+        float: none;
+        font-size: 15px;
+        line-height: 42px;
+        margin-left: 0;
+        margin-top: 5px;
+        padding-left: 0;
+        float: left;
+        color: #fff;
+    }
+    .contact-widget li{
+        margin-bottom: 7px;
+    }
+    .contact-widget ins{
+        display: block;
+    }
+    .space-res{
+        padding-top: 20px;
+    }
+}
